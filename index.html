@@ -38,7 +38,6 @@
               </div>
             </div>
           </div>
-        
     </div>
 
 
@@ -47,7 +46,7 @@
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
               <div class="hexagon-in2" style="background-image: url(images/gallery/2.jpg);">
-                <span><input type="button"  value="FLOOD"></span>
+                <span><input type="button" id="flood" value="FLOOD"></span>
               </div>
             </div>
           </div>
@@ -90,6 +89,12 @@
         </div>
       </div>
     </div> 
-    
+    <button id="myButton" class="float-left submit-button" >Home</button>
+
+    <script type="text/javascript">
+    document.getElementById("flood").onclick = function () {
+        location.href = "location.html";
+    };
+</script>
   </body>
 </html>
